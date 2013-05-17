@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F503AEED16FD345F00589026 /* FNCaseFileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AEEC16FD345F00589026 /* FNCaseFileTableViewController.m */; };
+		F503AEF016FD346D00589026 /* FNCardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AEEF16FD346D00589026 /* FNCardTableViewController.m */; };
+		F503AEF316FD34C200589026 /* FNEntityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AEF216FD34C200589026 /* FNEntityTableViewController.m */; };
+		F503AEFA16FD433800589026 /* FNPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AEF916FD433800589026 /* FNPoint.m */; };
+		F503AEFD16FD492F00589026 /* FNCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AEFC16FD492F00589026 /* FNCard.m */; };
+		F503AF0016FD4ADC00589026 /* FNCaseFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AEFF16FD4ADC00589026 /* FNCaseFile.m */; };
+		F503AF0916FE251500589026 /* FNLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AF0816FE251500589026 /* FNLine.m */; };
+		F503AF0C16FE7B8800589026 /* FNShape.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AF0B16FE7B8800589026 /* FNShape.m */; };
+		F503AF411701F26F00589026 /* FNEntityInspectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AF401701F26E00589026 /* FNEntityInspectorViewController.m */; };
+		F503AF441702188D00589026 /* FNDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AF431702188C00589026 /* FNDataManager.m */; };
+		F503AFF9170A482C00589026 /* FNPointAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F503AFF8170A482C00589026 /* FNPointAnnotationView.m */; };
+		F503B04817161F2800589026 /* KGNotePad.m in Sources */ = {isa = PBXBuildFile; fileRef = F503B04717161F2800589026 /* KGNotePad.m */; };
+		F503B04B17161FF800589026 /* FNCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F503B04A17161FF800589026 /* FNCardCell.m */; };
+		F503B04D1716224000589026 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F503B04C1716223F00589026 /* QuartzCore.framework */; };
+		F503B0501717A80D00589026 /* DeleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F503B04E1717A80B00589026 /* DeleteButton.png */; };
+		F503B0511717A80D00589026 /* DeleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F503B04F1717A80C00589026 /* DeleteButton@2x.png */; };
+		F503B0541717B55500589026 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = F503B0521717B55500589026 /* eye.png */; };
+		F503B0551717B55500589026 /* eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F503B0531717B55500589026 /* eye@2x.png */; };
+		F503B0581717B68700589026 /* eye_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F503B0561717B68700589026 /* eye_selected@2x.png */; };
+		F503B0591717B68700589026 /* eye_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F503B0571717B68700589026 /* eye_selected.png */; };
+		F52D979816F8B92D0061AD6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52D979716F8B92D0061AD6B /* UIKit.framework */; };
+		F52D979A16F8B92D0061AD6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52D979916F8B92D0061AD6B /* Foundation.framework */; };
+		F52D979C16F8B92D0061AD6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52D979B16F8B92D0061AD6B /* CoreGraphics.framework */; };
+		F52D97A216F8B92D0061AD6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F52D97A016F8B92D0061AD6B /* InfoPlist.strings */; };
+		F52D97A416F8B92D0061AD6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52D97A316F8B92D0061AD6B /* main.m */; };
+		F52D97A816F8B92D0061AD6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F52D97A716F8B92D0061AD6B /* AppDelegate.m */; };
+		F52D97AA16F8B92D0061AD6B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F52D97A916F8B92D0061AD6B /* Default.png */; };
+		F52D97AC16F8B92D0061AD6B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52D97AB16F8B92D0061AD6B /* Default@2x.png */; };
+		F52D97AE16F8B92D0061AD6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52D97AD16F8B92D0061AD6B /* Default-568h@2x.png */; };
+		F52D97B716F8B9540061AD6B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52D97B516F8B9530061AD6B /* MapViewController.m */; };
+		F52D97B816F8B9540061AD6B /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52D97B616F8B9530061AD6B /* MapViewController.xib */; };
+		F52D97BA16F8B98F0061AD6B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52D97B916F8B98F0061AD6B /* MapKit.framework */; };
+		F52D97BC16F8BA750061AD6B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52D97BB16F8BA750061AD6B /* CoreLocation.framework */; };
+		F533DB501733532C004ECCB4 /* FNPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB4F1733532B004ECCB4 /* FNPhoto.m */; };
+		F533DB53173357B8004ECCB4 /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB51173357B8004ECCB4 /* point.png */; };
+		F533DB54173357B8004ECCB4 /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB52173357B8004ECCB4 /* point@2x.png */; };
+		F533DB5717335839004ECCB4 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB5517335839004ECCB4 /* line.png */; };
+		F533DB5817335839004ECCB4 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB5617335839004ECCB4 /* line@2x.png */; };
+		F533DB5B17335971004ECCB4 /* shape.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB5917335971004ECCB4 /* shape.png */; };
+		F533DB5C17335971004ECCB4 /* shape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB5A17335971004ECCB4 /* shape@2x.png */; };
+		F533DB5F17335BAE004ECCB4 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB5D17335BAD004ECCB4 /* list.png */; };
+		F533DB6017335BAE004ECCB4 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB5E17335BAD004ECCB4 /* list@2x.png */; };
+		F533DB68173360CF004ECCB4 /* MNColorSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB63173360CF004ECCB4 /* MNColorSelectionViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB69173360CF004ECCB4 /* MNColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB65173360CF004ECCB4 /* MNColorTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB6A173360CF004ECCB4 /* MNColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB67173360CF004ECCB4 /* MNColorView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB6D173360DF004ECCB4 /* UIColor+ColorSpaces.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB6C173360DF004ECCB4 /* UIColor+ColorSpaces.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB70173360F8004ECCB4 /* NSArray+HOM.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB6F173360F8004ECCB4 /* NSArray+HOM.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB731733613C004ECCB4 /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB711733613A004ECCB4 /* color.png */; };
+		F533DB741733613C004ECCB4 /* color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F533DB721733613B004ECCB4 /* color@2x.png */; };
+		F533DB78173361D2004ECCB4 /* MNMobileFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB77173361D2004ECCB4 /* MNMobileFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB7B173361DE004ECCB4 /* MNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB7A173361DE004ECCB4 /* MNTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB7E1733641A004ECCB4 /* MNColorsBlackWhite.plist in Resources */ = {isa = PBXBuildFile; fileRef = F533DB7C17336419004ECCB4 /* MNColorsBlackWhite.plist */; };
+		F533DB7F1733641A004ECCB4 /* MNColorsRainbow.plist in Resources */ = {isa = PBXBuildFile; fileRef = F533DB7D17336419004ECCB4 /* MNColorsRainbow.plist */; };
+		F533DB8F173365A2004ECCB4 /* InfColorBarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB82173365A2004ECCB4 /* InfColorBarPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB90173365A2004ECCB4 /* InfColorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB84173365A2004ECCB4 /* InfColorIndicatorView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB91173365A2004ECCB4 /* InfColorPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB87173365A2004ECCB4 /* InfColorPickerController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB92173365A2004ECCB4 /* InfColorPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F533DB88173365A2004ECCB4 /* InfColorPickerView.xib */; };
+		F533DB93173365A2004ECCB4 /* InfColorSquarePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB8A173365A2004ECCB4 /* InfColorSquarePicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB94173365A2004ECCB4 /* InfHSBSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB8C173365A2004ECCB4 /* InfHSBSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F533DB95173365A2004ECCB4 /* InfSourceColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F533DB8E173365A2004ECCB4 /* InfSourceColorView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F503AEEB16FD345F00589026 /* FNCaseFileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCaseFileTableViewController.h; sourceTree = "<group>"; };
+		F503AEEC16FD345F00589026 /* FNCaseFileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCaseFileTableViewController.m; sourceTree = "<group>"; };
+		F503AEEE16FD346D00589026 /* FNCardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCardTableViewController.h; sourceTree = "<group>"; };
+		F503AEEF16FD346D00589026 /* FNCardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCardTableViewController.m; sourceTree = "<group>"; };
+		F503AEF116FD34C200589026 /* FNEntityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNEntityTableViewController.h; sourceTree = "<group>"; };
+		F503AEF216FD34C200589026 /* FNEntityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNEntityTableViewController.m; sourceTree = "<group>"; };
+		F503AEF416FD42A500589026 /* FNEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNEntity.h; sourceTree = "<group>"; };
+		F503AEF816FD433800589026 /* FNPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNPoint.h; sourceTree = "<group>"; };
+		F503AEF916FD433800589026 /* FNPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNPoint.m; sourceTree = "<group>"; };
+		F503AEFB16FD492F00589026 /* FNCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCard.h; sourceTree = "<group>"; };
+		F503AEFC16FD492F00589026 /* FNCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCard.m; sourceTree = "<group>"; };
+		F503AEFE16FD4ADC00589026 /* FNCaseFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCaseFile.h; sourceTree = "<group>"; };
+		F503AEFF16FD4ADC00589026 /* FNCaseFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCaseFile.m; sourceTree = "<group>"; };
+		F503AF0716FE251500589026 /* FNLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNLine.h; sourceTree = "<group>"; };
+		F503AF0816FE251500589026 /* FNLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNLine.m; sourceTree = "<group>"; };
+		F503AF0A16FE7B8800589026 /* FNShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNShape.h; sourceTree = "<group>"; };
+		F503AF0B16FE7B8800589026 /* FNShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNShape.m; sourceTree = "<group>"; };
+		F503AF3F1701F26E00589026 /* FNEntityInspectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNEntityInspectorViewController.h; sourceTree = "<group>"; };
+		F503AF401701F26E00589026 /* FNEntityInspectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNEntityInspectorViewController.m; sourceTree = "<group>"; };
+		F503AF421702188C00589026 /* FNDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNDataManager.h; sourceTree = "<group>"; };
+		F503AF431702188C00589026 /* FNDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNDataManager.m; sourceTree = "<group>"; };
+		F503AFF7170A482B00589026 /* FNPointAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNPointAnnotationView.h; sourceTree = "<group>"; };
+		F503AFF8170A482C00589026 /* FNPointAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNPointAnnotationView.m; sourceTree = "<group>"; };
+		F503B04617161F2800589026 /* KGNotePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNotePad.h; sourceTree = "<group>"; };
+		F503B04717161F2800589026 /* KGNotePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNotePad.m; sourceTree = "<group>"; };
+		F503B04917161FF800589026 /* FNCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCardCell.h; sourceTree = "<group>"; };
+		F503B04A17161FF800589026 /* FNCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCardCell.m; sourceTree = "<group>"; };
+		F503B04C1716223F00589026 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F503B04E1717A80B00589026 /* DeleteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteButton.png; sourceTree = "<group>"; };
+		F503B04F1717A80C00589026 /* DeleteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DeleteButton@2x.png"; sourceTree = "<group>"; };
+		F503B0521717B55500589026 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		F503B0531717B55500589026 /* eye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye@2x.png"; sourceTree = "<group>"; };
+		F503B0561717B68700589026 /* eye_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye_selected@2x.png"; sourceTree = "<group>"; };
+		F503B0571717B68700589026 /* eye_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye_selected.png; sourceTree = "<group>"; };
+		F52D979416F8B92D0061AD6B /* FieldNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52D979716F8B92D0061AD6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F52D979916F8B92D0061AD6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F52D979B16F8B92D0061AD6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F52D979F16F8B92D0061AD6B /* FieldNotebook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FieldNotebook-Info.plist"; sourceTree = "<group>"; };
+		F52D97A116F8B92D0061AD6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F52D97A316F8B92D0061AD6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F52D97A516F8B92D0061AD6B /* FieldNotebook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FieldNotebook-Prefix.pch"; sourceTree = "<group>"; };
+		F52D97A616F8B92D0061AD6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F52D97A716F8B92D0061AD6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F52D97A916F8B92D0061AD6B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F52D97AB16F8B92D0061AD6B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F52D97AD16F8B92D0061AD6B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F52D97B416F8B9530061AD6B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F52D97B516F8B9530061AD6B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		F52D97B616F8B9530061AD6B /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		F52D97B916F8B98F0061AD6B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F52D97BB16F8BA750061AD6B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F533DB4E1733532B004ECCB4 /* FNPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNPhoto.h; sourceTree = "<group>"; };
+		F533DB4F1733532B004ECCB4 /* FNPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNPhoto.m; sourceTree = "<group>"; };
+		F533DB51173357B8004ECCB4 /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		F533DB52173357B8004ECCB4 /* point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point@2x.png"; sourceTree = "<group>"; };
+		F533DB5517335839004ECCB4 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		F533DB5617335839004ECCB4 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		F533DB5917335971004ECCB4 /* shape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shape.png; sourceTree = "<group>"; };
+		F533DB5A17335971004ECCB4 /* shape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shape@2x.png"; sourceTree = "<group>"; };
+		F533DB5D17335BAD004ECCB4 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		F533DB5E17335BAD004ECCB4 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		F533DB62173360CF004ECCB4 /* MNColorSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorSelectionViewController.h; sourceTree = "<group>"; };
+		F533DB63173360CF004ECCB4 /* MNColorSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorSelectionViewController.m; sourceTree = "<group>"; };
+		F533DB64173360CF004ECCB4 /* MNColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorTableViewCell.h; sourceTree = "<group>"; };
+		F533DB65173360CF004ECCB4 /* MNColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorTableViewCell.m; sourceTree = "<group>"; };
+		F533DB66173360CF004ECCB4 /* MNColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNColorView.h; sourceTree = "<group>"; };
+		F533DB67173360CF004ECCB4 /* MNColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNColorView.m; sourceTree = "<group>"; };
+		F533DB6B173360DF004ECCB4 /* UIColor+ColorSpaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorSpaces.h"; sourceTree = "<group>"; };
+		F533DB6C173360DF004ECCB4 /* UIColor+ColorSpaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorSpaces.m"; sourceTree = "<group>"; };
+		F533DB6E173360F8004ECCB4 /* NSArray+HOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HOM.h"; sourceTree = "<group>"; };
+		F533DB6F173360F8004ECCB4 /* NSArray+HOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HOM.m"; sourceTree = "<group>"; };
+		F533DB711733613A004ECCB4 /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		F533DB721733613B004ECCB4 /* color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color@2x.png"; sourceTree = "<group>"; };
+		F533DB75173361D1004ECCB4 /* MNGlobalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNGlobalHeader.h; sourceTree = "<group>"; };
+		F533DB76173361D1004ECCB4 /* MNMobileFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMobileFunctions.h; sourceTree = "<group>"; };
+		F533DB77173361D2004ECCB4 /* MNMobileFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMobileFunctions.m; sourceTree = "<group>"; };
+		F533DB79173361DE004ECCB4 /* MNTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNTableViewCell.h; sourceTree = "<group>"; };
+		F533DB7A173361DE004ECCB4 /* MNTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTableViewCell.m; sourceTree = "<group>"; };
+		F533DB7C17336419004ECCB4 /* MNColorsBlackWhite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MNColorsBlackWhite.plist; sourceTree = "<group>"; };
+		F533DB7D17336419004ECCB4 /* MNColorsRainbow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MNColorsRainbow.plist; sourceTree = "<group>"; };
+		F533DB81173365A2004ECCB4 /* InfColorBarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorBarPicker.h; sourceTree = "<group>"; };
+		F533DB82173365A2004ECCB4 /* InfColorBarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfColorBarPicker.m; sourceTree = "<group>"; };
+		F533DB83173365A2004ECCB4 /* InfColorIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorIndicatorView.h; sourceTree = "<group>"; };
+		F533DB84173365A2004ECCB4 /* InfColorIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfColorIndicatorView.m; sourceTree = "<group>"; };
+		F533DB85173365A2004ECCB4 /* InfColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorPicker.h; sourceTree = "<group>"; };
+		F533DB86173365A2004ECCB4 /* InfColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorPickerController.h; sourceTree = "<group>"; };
+		F533DB87173365A2004ECCB4 /* InfColorPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfColorPickerController.m; sourceTree = "<group>"; };
+		F533DB88173365A2004ECCB4 /* InfColorPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfColorPickerView.xib; sourceTree = "<group>"; };
+		F533DB89173365A2004ECCB4 /* InfColorSquarePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorSquarePicker.h; sourceTree = "<group>"; };
+		F533DB8A173365A2004ECCB4 /* InfColorSquarePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfColorSquarePicker.m; sourceTree = "<group>"; };
+		F533DB8B173365A2004ECCB4 /* InfHSBSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfHSBSupport.h; sourceTree = "<group>"; };
+		F533DB8C173365A2004ECCB4 /* InfHSBSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfHSBSupport.m; sourceTree = "<group>"; };
+		F533DB8D173365A2004ECCB4 /* InfSourceColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfSourceColorView.h; sourceTree = "<group>"; };
+		F533DB8E173365A2004ECCB4 /* InfSourceColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfSourceColorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52D979116F8B92D0061AD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F503B04D1716224000589026 /* QuartzCore.framework in Frameworks */,
+				F52D97BC16F8BA750061AD6B /* CoreLocation.framework in Frameworks */,
+				F52D97BA16F8B98F0061AD6B /* MapKit.framework in Frameworks */,
+				F52D979816F8B92D0061AD6B /* UIKit.framework in Frameworks */,
+				F52D979A16F8B92D0061AD6B /* Foundation.framework in Frameworks */,
+				F52D979C16F8B92D0061AD6B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F503AEF716FD42AC00589026 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F503AF0716FE251500589026 /* FNLine.h */,
+				F503AF0816FE251500589026 /* FNLine.m */,
+				F503AEF816FD433800589026 /* FNPoint.h */,
+				F503AEF916FD433800589026 /* FNPoint.m */,
+				F503AF0A16FE7B8800589026 /* FNShape.h */,
+				F503AF0B16FE7B8800589026 /* FNShape.m */,
+				F503AEF416FD42A500589026 /* FNEntity.h */,
+				F503AEFB16FD492F00589026 /* FNCard.h */,
+				F503AEFC16FD492F00589026 /* FNCard.m */,
+				F533DB4E1733532B004ECCB4 /* FNPhoto.h */,
+				F533DB4F1733532B004ECCB4 /* FNPhoto.m */,
+				F503AEFE16FD4ADC00589026 /* FNCaseFile.h */,
+				F503AEFF16FD4ADC00589026 /* FNCaseFile.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F503AFFA170A483500589026 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F503AFF7170A482B00589026 /* FNPointAnnotationView.h */,
+				F503AFF8170A482C00589026 /* FNPointAnnotationView.m */,
+				F503B04917161FF800589026 /* FNCardCell.h */,
+				F503B04A17161FF800589026 /* FNCardCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F503B04517161F1D00589026 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				F533DB8017336594004ECCB4 /* InfColorPicker */,
+				F533DB61173360C4004ECCB4 /* MNKit */,
+				F503B04617161F2800589026 /* KGNotePad.h */,
+				F503B04717161F2800589026 /* KGNotePad.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		F52D978B16F8B92C0061AD6B = {
+			isa = PBXGroup;
+			children = (
+				F52D979D16F8B92D0061AD6B /* FieldNotebook */,
+				F52D979616F8B92D0061AD6B /* Frameworks */,
+				F52D979516F8B92D0061AD6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F52D979516F8B92D0061AD6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52D979416F8B92D0061AD6B /* FieldNotebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52D979616F8B92D0061AD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F503B04C1716223F00589026 /* QuartzCore.framework */,
+				F52D97BB16F8BA750061AD6B /* CoreLocation.framework */,
+				F52D97B916F8B98F0061AD6B /* MapKit.framework */,
+				F52D979716F8B92D0061AD6B /* UIKit.framework */,
+				F52D979916F8B92D0061AD6B /* Foundation.framework */,
+				F52D979B16F8B92D0061AD6B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F52D979D16F8B92D0061AD6B /* FieldNotebook */ = {
+			isa = PBXGroup;
+			children = (
+				F503B04517161F1D00589026 /* Vendor */,
+				F52D97B416F8B9530061AD6B /* MapViewController.h */,
+				F52D97B516F8B9530061AD6B /* MapViewController.m */,
+				F52D97B616F8B9530061AD6B /* MapViewController.xib */,
+				F503AEEB16FD345F00589026 /* FNCaseFileTableViewController.h */,
+				F503AEEC16FD345F00589026 /* FNCaseFileTableViewController.m */,
+				F503AEEE16FD346D00589026 /* FNCardTableViewController.h */,
+				F503AEEF16FD346D00589026 /* FNCardTableViewController.m */,
+				F503AEF116FD34C200589026 /* FNEntityTableViewController.h */,
+				F503AEF216FD34C200589026 /* FNEntityTableViewController.m */,
+				F503AF3F1701F26E00589026 /* FNEntityInspectorViewController.h */,
+				F503AF401701F26E00589026 /* FNEntityInspectorViewController.m */,
+				F503AF421702188C00589026 /* FNDataManager.h */,
+				F503AF431702188C00589026 /* FNDataManager.m */,
+				F503AFFA170A483500589026 /* View */,
+				F503AEF716FD42AC00589026 /* Model */,
+				F52D97A616F8B92D0061AD6B /* AppDelegate.h */,
+				F52D97A716F8B92D0061AD6B /* AppDelegate.m */,
+				F52D979E16F8B92D0061AD6B /* Supporting Files */,
+			);
+			path = FieldNotebook;
+			sourceTree = "<group>";
+		};
+		F52D979E16F8B92D0061AD6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F533DB711733613A004ECCB4 /* color.png */,
+				F533DB721733613B004ECCB4 /* color@2x.png */,
+				F533DB5D17335BAD004ECCB4 /* list.png */,
+				F533DB5E17335BAD004ECCB4 /* list@2x.png */,
+				F533DB5917335971004ECCB4 /* shape.png */,
+				F533DB5A17335971004ECCB4 /* shape@2x.png */,
+				F533DB5517335839004ECCB4 /* line.png */,
+				F533DB5617335839004ECCB4 /* line@2x.png */,
+				F533DB51173357B8004ECCB4 /* point.png */,
+				F533DB52173357B8004ECCB4 /* point@2x.png */,
+				F503B0561717B68700589026 /* eye_selected@2x.png */,
+				F503B0571717B68700589026 /* eye_selected.png */,
+				F503B0521717B55500589026 /* eye.png */,
+				F503B0531717B55500589026 /* eye@2x.png */,
+				F503B04E1717A80B00589026 /* DeleteButton.png */,
+				F503B04F1717A80C00589026 /* DeleteButton@2x.png */,
+				F52D979F16F8B92D0061AD6B /* FieldNotebook-Info.plist */,
+				F52D97A016F8B92D0061AD6B /* InfoPlist.strings */,
+				F52D97A316F8B92D0061AD6B /* main.m */,
+				F52D97A516F8B92D0061AD6B /* FieldNotebook-Prefix.pch */,
+				F52D97A916F8B92D0061AD6B /* Default.png */,
+				F52D97AB16F8B92D0061AD6B /* Default@2x.png */,
+				F52D97AD16F8B92D0061AD6B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F533DB61173360C4004ECCB4 /* MNKit */ = {
+			isa = PBXGroup;
+			children = (
+				F533DB7C17336419004ECCB4 /* MNColorsBlackWhite.plist */,
+				F533DB7D17336419004ECCB4 /* MNColorsRainbow.plist */,
+				F533DB79173361DE004ECCB4 /* MNTableViewCell.h */,
+				F533DB7A173361DE004ECCB4 /* MNTableViewCell.m */,
+				F533DB75173361D1004ECCB4 /* MNGlobalHeader.h */,
+				F533DB76173361D1004ECCB4 /* MNMobileFunctions.h */,
+				F533DB77173361D2004ECCB4 /* MNMobileFunctions.m */,
+				F533DB6E173360F8004ECCB4 /* NSArray+HOM.h */,
+				F533DB6F173360F8004ECCB4 /* NSArray+HOM.m */,
+				F533DB6B173360DF004ECCB4 /* UIColor+ColorSpaces.h */,
+				F533DB6C173360DF004ECCB4 /* UIColor+ColorSpaces.m */,
+				F533DB62173360CF004ECCB4 /* MNColorSelectionViewController.h */,
+				F533DB63173360CF004ECCB4 /* MNColorSelectionViewController.m */,
+				F533DB64173360CF004ECCB4 /* MNColorTableViewCell.h */,
+				F533DB65173360CF004ECCB4 /* MNColorTableViewCell.m */,
+				F533DB66173360CF004ECCB4 /* MNColorView.h */,
+				F533DB67173360CF004ECCB4 /* MNColorView.m */,
+			);
+			name = MNKit;
+			sourceTree = "<group>";
+		};
+		F533DB8017336594004ECCB4 /* InfColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F533DB81173365A2004ECCB4 /* InfColorBarPicker.h */,
+				F533DB82173365A2004ECCB4 /* InfColorBarPicker.m */,
+				F533DB83173365A2004ECCB4 /* InfColorIndicatorView.h */,
+				F533DB84173365A2004ECCB4 /* InfColorIndicatorView.m */,
+				F533DB85173365A2004ECCB4 /* InfColorPicker.h */,
+				F533DB86173365A2004ECCB4 /* InfColorPickerController.h */,
+				F533DB87173365A2004ECCB4 /* InfColorPickerController.m */,
+				F533DB88173365A2004ECCB4 /* InfColorPickerView.xib */,
+				F533DB89173365A2004ECCB4 /* InfColorSquarePicker.h */,
+				F533DB8A173365A2004ECCB4 /* InfColorSquarePicker.m */,
+				F533DB8B173365A2004ECCB4 /* InfHSBSupport.h */,
+				F533DB8C173365A2004ECCB4 /* InfHSBSupport.m */,
+				F533DB8D173365A2004ECCB4 /* InfSourceColorView.h */,
+				F533DB8E173365A2004ECCB4 /* InfSourceColorView.m */,
+			);
+			name = InfColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52D979316F8B92D0061AD6B /* FieldNotebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52D97B116F8B92D0061AD6B /* Build configuration list for PBXNativeTarget "FieldNotebook" */;
+			buildPhases = (
+				F52D979016F8B92D0061AD6B /* Sources */,
+				F52D979116F8B92D0061AD6B /* Frameworks */,
+				F52D979216F8B92D0061AD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FieldNotebook;
+			productName = FieldNotebook;
+			productReference = F52D979416F8B92D0061AD6B /* FieldNotebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52D978C16F8B92C0061AD6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ryan Worl";
+			};
+			buildConfigurationList = F52D978F16F8B92C0061AD6B /* Build configuration list for PBXProject "FieldNotebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F52D978B16F8B92C0061AD6B;
+			productRefGroup = F52D979516F8B92D0061AD6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52D979316F8B92D0061AD6B /* FieldNotebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52D979216F8B92D0061AD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D97A216F8B92D0061AD6B /* InfoPlist.strings in Resources */,
+				F52D97AA16F8B92D0061AD6B /* Default.png in Resources */,
+				F52D97AC16F8B92D0061AD6B /* Default@2x.png in Resources */,
+				F52D97AE16F8B92D0061AD6B /* Default-568h@2x.png in Resources */,
+				F52D97B816F8B9540061AD6B /* MapViewController.xib in Resources */,
+				F503B0501717A80D00589026 /* DeleteButton.png in Resources */,
+				F503B0511717A80D00589026 /* DeleteButton@2x.png in Resources */,
+				F503B0541717B55500589026 /* eye.png in Resources */,
+				F503B0551717B55500589026 /* eye@2x.png in Resources */,
+				F503B0581717B68700589026 /* eye_selected@2x.png in Resources */,
+				F503B0591717B68700589026 /* eye_selected.png in Resources */,
+				F533DB53173357B8004ECCB4 /* point.png in Resources */,
+				F533DB54173357B8004ECCB4 /* point@2x.png in Resources */,
+				F533DB5717335839004ECCB4 /* line.png in Resources */,
+				F533DB5817335839004ECCB4 /* line@2x.png in Resources */,
+				F533DB5B17335971004ECCB4 /* shape.png in Resources */,
+				F533DB5C17335971004ECCB4 /* shape@2x.png in Resources */,
+				F533DB5F17335BAE004ECCB4 /* list.png in Resources */,
+				F533DB6017335BAE004ECCB4 /* list@2x.png in Resources */,
+				F533DB731733613C004ECCB4 /* color.png in Resources */,
+				F533DB741733613C004ECCB4 /* color@2x.png in Resources */,
+				F533DB7E1733641A004ECCB4 /* MNColorsBlackWhite.plist in Resources */,
+				F533DB7F1733641A004ECCB4 /* MNColorsRainbow.plist in Resources */,
+				F533DB92173365A2004ECCB4 /* InfColorPickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52D979016F8B92D0061AD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D97A416F8B92D0061AD6B /* main.m in Sources */,
+				F52D97A816F8B92D0061AD6B /* AppDelegate.m in Sources */,
+				F52D97B716F8B9540061AD6B /* MapViewController.m in Sources */,
+				F503AEED16FD345F00589026 /* FNCaseFileTableViewController.m in Sources */,
+				F503AEF016FD346D00589026 /* FNCardTableViewController.m in Sources */,
+				F503AEF316FD34C200589026 /* FNEntityTableViewController.m in Sources */,
+				F503AEFA16FD433800589026 /* FNPoint.m in Sources */,
+				F503AEFD16FD492F00589026 /* FNCard.m in Sources */,
+				F503AF0016FD4ADC00589026 /* FNCaseFile.m in Sources */,
+				F503AF0916FE251500589026 /* FNLine.m in Sources */,
+				F503AF0C16FE7B8800589026 /* FNShape.m in Sources */,
+				F503AF411701F26F00589026 /* FNEntityInspectorViewController.m in Sources */,
+				F503AF441702188D00589026 /* FNDataManager.m in Sources */,
+				F503AFF9170A482C00589026 /* FNPointAnnotationView.m in Sources */,
+				F503B04817161F2800589026 /* KGNotePad.m in Sources */,
+				F503B04B17161FF800589026 /* FNCardCell.m in Sources */,
+				F533DB501733532C004ECCB4 /* FNPhoto.m in Sources */,
+				F533DB68173360CF004ECCB4 /* MNColorSelectionViewController.m in Sources */,
+				F533DB69173360CF004ECCB4 /* MNColorTableViewCell.m in Sources */,
+				F533DB6A173360CF004ECCB4 /* MNColorView.m in Sources */,
+				F533DB6D173360DF004ECCB4 /* UIColor+ColorSpaces.m in Sources */,
+				F533DB70173360F8004ECCB4 /* NSArray+HOM.m in Sources */,
+				F533DB78173361D2004ECCB4 /* MNMobileFunctions.m in Sources */,
+				F533DB7B173361DE004ECCB4 /* MNTableViewCell.m in Sources */,
+				F533DB8F173365A2004ECCB4 /* InfColorBarPicker.m in Sources */,
+				F533DB90173365A2004ECCB4 /* InfColorIndicatorView.m in Sources */,
+				F533DB91173365A2004ECCB4 /* InfColorPickerController.m in Sources */,
+				F533DB93173365A2004ECCB4 /* InfColorSquarePicker.m in Sources */,
+				F533DB94173365A2004ECCB4 /* InfHSBSupport.m in Sources */,
+				F533DB95173365A2004ECCB4 /* InfSourceColorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F52D97A016F8B92D0061AD6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52D97A116F8B92D0061AD6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52D97AF16F8B92D0061AD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52D97B016F8B92D0061AD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52D97B216F8B92D0061AD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Laura  La Lone (4QSFZ9338P)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FieldNotebook/FieldNotebook-Prefix.pch";
+				INFOPLIST_FILE = "FieldNotebook/FieldNotebook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AF97F25C-3CDD-4C76-9B40-3AACD8BC0182";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F52D97B316F8B92D0061AD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Laura  La Lone (4QSFZ9338P)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FieldNotebook/FieldNotebook-Prefix.pch";
+				INFOPLIST_FILE = "FieldNotebook/FieldNotebook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B2EB0A0F-E788-42D2-99C2-08F3FB7C0747";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52D978F16F8B92C0061AD6B /* Build configuration list for PBXProject "FieldNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D97AF16F8B92D0061AD6B /* Debug */,
+				F52D97B016F8B92D0061AD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52D97B116F8B92D0061AD6B /* Build configuration list for PBXNativeTarget "FieldNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52D97B216F8B92D0061AD6B /* Debug */,
+				F52D97B316F8B92D0061AD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52D978C16F8B92C0061AD6B /* Project object */;
+}
